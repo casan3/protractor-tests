@@ -38,6 +38,4 @@ COPY . .
 # Make sure the script is executable
 RUN chmod +x protractor.sh
 
-#ENV CHROME_OPTIONS="--headless --no-sandbox --disable-dev-shm-usage --disable-gpu --disable-extensions --disable-setuid-sandbox --remote-debugging-port=9222"
-
 CMD ["./protractor.sh"]
